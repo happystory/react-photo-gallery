@@ -3,4 +3,10 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="JSX" />
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/src/App.css" />
+    <file url="file://$PROJECT_DIR$/src/App.js" />
+    <file url="file://$PROJECT_DIR$/src/App.test.js" />
+    <file url="file://$PROJECT_DIR$/src/index.css" />
+  </component>
 </project>

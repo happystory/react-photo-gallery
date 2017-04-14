@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import GalleryByReactApp from './components/GalleryByReactApp';
 
 ReactDOM.render(
-  <App />,
+  <GalleryByReactApp />,
   document.getElementById('root')
 );
