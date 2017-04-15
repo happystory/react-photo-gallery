@@ -80,6 +80,34 @@ class ImgFigure extends Component {
   }
 }
 
+class ControllerUnit extends Component {
+  handleClick(e) {
+    if (this.props.arrange.isCenter) {
+      this.props.inverse();
+    } else {
+      this.props.center();
+    }
+
+    e.preventDefault();
+    e.stopPropagation();
+  }
+
+  render() {
+    let controllerUnitClassName = 'controller-unit';
+
+    if (this.props.arrange.isCenter) {
+      controllerUnitClassName += ' is-center';
+    }
+    if (this.props.arrange.isInverse) {
+      controllerUnitClassName += ' is-inverse';
+    }
+
+    return (
+      <span className={controllerUnitClassName} onClick={this.handleClick.bind(this)}></span>
+    );
+  }
+}
+
 class GalleryByReactApp extends Component {
   constructor(props) {
     super(props);
@@ -273,9 +301,12 @@ class GalleryByReactApp extends Component {
   }
 
   render() {
-    const controllerUnits = [];
     const imgFigures = imageInfos.map((value, index) => (
       <ImgFigure center={this.center(index)} inverse={this.inverse(index)} arrange={this.state.imgsArrangeArr[index]} data={value} key={index} ref={'imgFigure' + index}/>
+    ));
+
+    const controllerUnits = imageInfos.map((value, index) => (
+      <ControllerUnit center={this.center(index)} inverse={this.inverse(index)} arrange={this.state.imgsArrangeArr[index]} key={index} />
     ));
 
     return (

@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c34bd4a-73c5-46e6-a725-93dc2b4ad54a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/icons/turn-arrow.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/icons/turn-arrow.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/icons/turn-arrow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/icons/turn-arrow.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/GalleryByReactApp.js" afterPath="$PROJECT_DIR$/src/components/GalleryByReactApp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/main.scss" afterPath="$PROJECT_DIR$/src/styles/main.scss" />
@@ -35,27 +39,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GalleryByReactApp.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GalleryByReactApp.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/GalleryByReactApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="62" column="11" lean-forward="true" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+            <state relative-caret-position="263">
+              <caret line="60" column="69" lean-forward="false" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="69" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#41#80#0" expanded="true" />
-                <marker date="1492268304000" expanded="true" signature="7357:7538" ph="..." />
-                <marker date="1492268304000" expanded="true" signature="7395:7437" ph="..." />
-                <marker date="1492268304000" expanded="true" signature="7478:7521" ph="..." />
+                <marker date="1492271371000" expanded="true" signature="8138:8319" ph="..." />
+                <marker date="1492271371000" expanded="true" signature="8176:8218" ph="..." />
+                <marker date="1492271371000" expanded="true" signature="8259:8302" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="43" />
+            <state relative-caret-position="141">
+              <caret line="111" column="25" lean-forward="true" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -79,6 +83,7 @@
       <find>rearrange</find>
       <find>rotate: 0</find>
       <find>is_inver</find>
+      <find>transform</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -95,8 +100,9 @@
         <option value="$PROJECT_DIR$/config/webpack.config.prod.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/GalleryByReactApp.js" />
+        <option value="$PROJECT_DIR$/src/fonts/icons/turn-arrow.svg" />
         <option value="$PROJECT_DIR$/src/styles/main.scss" />
+        <option value="$PROJECT_DIR$/src/components/GalleryByReactApp.js" />
       </list>
     </option>
   </component>
@@ -112,8 +118,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="784" />
-    <option name="y" value="185" />
+    <option name="x" value="955" />
+    <option name="y" value="246" />
     <option name="width" value="1068" />
     <option name="height" value="856" />
   </component>
@@ -160,24 +166,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-photo-gallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-photo-gallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -193,13 +181,14 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/styles" />
       <recent name="$PROJECT_DIR$/src/data" />
       <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/fonts/icons" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager">
@@ -274,15 +263,15 @@
       <option name="presentableId" value="Default" />
       <updated>1492186910324</updated>
       <workItem from="1492186912731" duration="9875000" />
-      <workItem from="1492264067173" duration="4505000" />
+      <workItem from="1492264067173" duration="6728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14380000" />
+    <option name="totallyTimeSpent" value="16603000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="784" y="185" width="1068" height="856" extended-state="0" />
+    <frame x="955" y="246" width="1068" height="856" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -292,8 +281,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3202033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14513108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31937173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21052632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -338,9 +327,9 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#41#80#0" expanded="true" />
-            <marker date="1492268304000" expanded="true" signature="7357:7538" ph="..." />
-            <marker date="1492268304000" expanded="true" signature="7395:7437" ph="..." />
-            <marker date="1492268304000" expanded="true" signature="7478:7521" ph="..." />
+            <marker date="1492271371000" expanded="true" signature="8138:8319" ph="..." />
+            <marker date="1492271371000" expanded="true" signature="8176:8218" ph="..." />
+            <marker date="1492271371000" expanded="true" signature="8259:8302" ph="..." />
           </folding>
         </state>
       </provider>
@@ -410,25 +399,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/GalleryByReactApp.js">
+    <entry file="file://$PROJECT_DIR$/src/fonts/icons/turn-arrow.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="62" column="11" lean-forward="true" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#41#80#0" expanded="true" />
-            <marker date="1492268304000" expanded="true" signature="7357:7538" ph="..." />
-            <marker date="1492268304000" expanded="true" signature="7395:7437" ph="..." />
-            <marker date="1492268304000" expanded="true" signature="7478:7521" ph="..." />
-          </folding>
+        <state relative-caret-position="608">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="43" />
+        <state relative-caret-position="141">
+          <caret line="111" column="25" lean-forward="true" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/GalleryByReactApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="60" column="69" lean-forward="false" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="69" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#41#80#0" expanded="true" />
+            <marker date="1492271371000" expanded="true" signature="8138:8319" ph="..." />
+            <marker date="1492271371000" expanded="true" signature="8176:8218" ph="..." />
+            <marker date="1492271371000" expanded="true" signature="8259:8302" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
